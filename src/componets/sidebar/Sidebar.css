@@ -1,0 +1,37 @@
+.Sidebar{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 4rem;
+    transition: all 300ms ease;
+}
+.menu {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+.menuItem {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 12px;
+    border-radius: 0.7rem;
+
+}
+.menuItem:hover{
+    cursor: pointer;
+    color: seagreen;
+}
+.active{
+    color: rgb(34, 213, 24);
+    margin-left: 0;
+}
+.active::before{
+    content: '';
+    width: 8px;
+    height: 100%;
+    color: bisque;
+    background-color: #f0f8ff;
+}

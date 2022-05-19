@@ -1,0 +1,9 @@
+.user{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.heading{
+    gap: 2rem;
+    margin: 2rem;
+}
