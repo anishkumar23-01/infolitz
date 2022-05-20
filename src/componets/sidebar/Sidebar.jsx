@@ -21,6 +21,14 @@ function Sidebar() {
                 )
             })}
         </div>
+        <div className='wrapper'>
+        <div class="box box1">
+        <div class="col-md-12 text-center">
+            <span className='help'>Need help?</span>
+            <button type="button" class="btn btn-success"><span>contact us</span></button>
+        </div></div>
+
+        </div>
     </div>
   )
 }

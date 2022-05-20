@@ -16,7 +16,8 @@ function Card() {
                     
                     
                 <div className="upper-container">
-                <span className='dot'>{card.day}days ago</span>
+                <span className='dot' style={{float:'left'}}>{card.day}days ago</span>
+                <span class='bi bi-three-dots-vertical' style={{float:'right'}}></span>
             <div className="image-container">
                 <img src={card.image} alt='' height="100px" width="100px"/>
             </div>
